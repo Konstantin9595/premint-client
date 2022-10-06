@@ -1,4 +1,4 @@
-const PremintClient = require('../PremintClient').default
+const PremintClient = require('../PremintClient.js').default
 export default function handler(req, res) {
 
     const {ruffleUrl} = req.body
