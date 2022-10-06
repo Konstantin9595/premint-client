@@ -2,7 +2,7 @@ import PremintClient from '../PremintClient.js'
 
 export default function handler(req, res) {
 
-    const {ruffleUrl} = req.bodyz
+    const {ruffleUrl} = req.body
     if(!ruffleUrl) {
         const responseData = JSON.stringify({
             responseStatus: 400,
