@@ -1,3 +1,5 @@
+const PremintClient = require('../PremintClient.js').default
+
 export default function handler(req, res) {
     const {wallet, ruffleUrl} = req.body
 
