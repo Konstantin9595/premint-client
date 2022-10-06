@@ -1,4 +1,4 @@
-const PremintClient = require('../PremintClient.js').default
+import PremintClient from '../PremintClient.js'
 
 export default function handler(req, res) {
 
